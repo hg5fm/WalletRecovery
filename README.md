@@ -3,3 +3,5 @@ Simple tool written in C# that tries to salvage a corrupted wallet.dat which is 
 The tool uses Berkeley DB version db-4.8.30.NC.
 The wallet.dat file must also use the same database version.
 It was tested recovering corrupted wallet.dat files from Nexus (NXS) wallet.
+
+Use the build.bat to create the binaries. It's only requires to have .NET framework 4.x installed on Windows. 
